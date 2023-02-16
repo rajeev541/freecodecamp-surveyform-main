@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="title-div">
+            <h1 id="title">Share your experience with us!</h1>
+        </div>
+        <div id="main-div">
+        <div>
+            <p id="description">Help us to improve ourselves,by giving feedback so that we will get a chance to serve you better next time.</p>
+        </div>
+        <form id="survey-form">
+            <label id="name-label">Enter the name: </label>
+            <input type="text" id="name" placeholder="name goes here">
+            <br><br><br>
+            <label id="email-label">Enter the email: </label>
+            <input type="email" placeholder="email goes here">
+            <br><br><br>
+            <label id="number-label">Enter the number: </label>
+            <input type="tel" id="number" min="10" max="10" placeholder="number goes here" >
+            <br><br><br>
+            <label>How was the ambiance?</label>
+            <select id="dropdown">
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+            </select>
+            <br><br><br>
+            <label>Sex</label>
+            <input type="radio" name="gender" value="male">
+            <label>male</label>
+            <input type="radio" name="gender" value="female">
+            <label>female</label>
+            <br><br><br>
+            <label>What do you expect from us next time?</label><br>
+            <input type="checkbox" value="Better quality">
+            <label>Better quality</label>
+            <input type="checkbox" value="Better taste">
+            <label>Better taste</label>
+            <input type="checkbox" value="Better service">
+            <label>Better service</label>
+            <br><br><br>
+            <label>Any additional comment</label><br>
+            <textarea rows="4" columns="50"></textarea><br><br><br>
+            <input type="button" id="submit" value="submit">
+        </form>
+    </div>
+    </body>
+</html>

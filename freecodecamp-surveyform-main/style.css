@@ -1,0 +1,67 @@
+
+#title-div{
+    width:100%;
+    background-color:lightskyblue;
+    text-align: center;
+    padding:2px;
+}
+
+#main-div{
+    border: 2px solid black;
+    margin: 10px 250px 10px 250px;
+    background-color:rgb(172, 195, 230);
+    font-family: cursive;
+}
+
+#description{
+    text-align: center;
+}
+
+label{
+    padding:10px 30px  20px 15px;
+}
+input[type=text] {
+    padding:10px;
+    width:300px;
+    margin-left: 53px;
+}
+input[type=email] {
+    padding:10px;
+    width:300px;
+    margin-left: 53px;
+}
+input[type=tel] {
+    padding:10px;
+    width:300px;
+    margin-left: 39px;
+}
+
+#dropdown{
+    padding:10px;
+    width:300px;
+}
+input[type=radio]{
+    margin-left: 150px;
+}
+
+input[type=checkbox]{
+    margin:30px 50px 0px 50px;
+}
+textarea{
+    width:400px;
+    padding:10px;
+    margin-left: 230px;
+}
+#submit{
+    background-color: #4CAF50;
+    border: none;
+     color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 5px 20px 280px;
+    cursor: pointer;
+}
+
